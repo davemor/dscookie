@@ -6,4 +6,4 @@ RUN mkdir /workspace
 
 COPY . /workspace/example-project
 WORKDIR /workspace/example-project
-RUN rye sync
+RUN . ~/.profile && rye sync
