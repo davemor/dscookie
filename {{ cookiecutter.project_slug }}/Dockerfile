@@ -4,6 +4,6 @@ RUN apt update && apt -y install curl
 RUN curl -sSf https://rye.astral.sh/get | RYE_INSTALL_OPTION="--yes" bash
 RUN mkdir /workspace
 
-COPY . /workspace/example-project
-WORKDIR /workspace/example-project
+COPY . /workspace
+WORKDIR /workspace
 RUN . ~/.profile && rye sync
