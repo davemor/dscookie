@@ -27,7 +27,7 @@ pip install cookiecutter
 Once you have Cookiecutter installed, you can use this template by running the following command:
 
 ```bash
-cookiecutter git@github.com:davemor/data-science-template.git
+cookiecutter git@github.com:davemor/dscookie.git
 ```
 
 You will be prompted to enter various details for your project. Follow the prompts to set up your new data science project.
